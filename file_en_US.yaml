@@ -2,19 +2,19 @@ resilience4j:
   circuitbreaker:
     instances:
       availableBooksBreaker: test
-        _slidingWindowSize: test
-        _permittedNumberOfCallsInHalfOpenState: test
-        _slidingWindowType: TIME_BASED
+        slidingWindowSize: test
+        ermittedNumberOfCallsInHalfOpenState: test
+        slidingWindowType: TIME_BASED
         minimumNumberOfCalls: test
-        _waitDurationInOpenState: 50s
+        waitDurationInOpenState: 50s
         failureRateThreshold: test
         eventConsumerBufferSize: test
       sellsBooksBreaker: circuitbreakerConfig
   retry:
     instances:
       availableBooksRetry: test
-        _maxAttempts: test
+        maxAttempts: test
         waitDuration: test
-        _enableExponentialBackoff: test
+        enableExponentialBackoff: test
         exponentialBackoffMultiplier: test
       sellsBooksRetry: test

@@ -13,7 +13,7 @@ resilience4j:
       sellsBooksBreaker: circuitbreakerConfig
   retry:
     instances:
-      availableBooksRetry: test
+      availableBooksRetry:
         maxAttempts: test
         waitDuration: test
         enableExponentialBackoff: test

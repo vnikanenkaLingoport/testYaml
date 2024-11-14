@@ -1,7 +1,7 @@
 resilience4j:
   circuitbreaker:
     instances:
-      availableBooksBreaker: test
+        availableBooksBreaker: test
         slidingWindowSize: test
         ermittedNumberOfCallsInHalfOpenState: test
         slidingWindowType: TIME_BASED

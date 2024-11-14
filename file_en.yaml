@@ -1,6 +1,7 @@
 resilience4j:
   circuitbreaker:
     instances:
+      aaa:
         availableBooksBreaker: test
         slidingWindowSize: test
         ermittedNumberOfCallsInHalfOpenState: test
